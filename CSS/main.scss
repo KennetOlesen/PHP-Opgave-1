@@ -1,0 +1,60 @@
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+
+.logo {
+    height: 150px;
+    img {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+nav {
+    height: 40px;
+    background-color: forestgreen;
+    ul {
+        padding-top: 10px;
+        li {
+            list-style: none;
+            display: inline-block;
+            a {
+                text-transform: uppercase;
+                text-decoration: none;
+                padding-right: 20px;
+                font-weight: bold;
+                padding-left: 20px;
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    aside,article{
+        flex-basis: 32%;
+    }
+}
+
+/*Klement svar på hvordan man får billeder til at ligge ved siden af hianden via flexbox
+
+https://codepen.io/klementj/pen/xdvrMy?editors=1100 
+
+*/
+
+footer {
+    text-align: center;
+}
