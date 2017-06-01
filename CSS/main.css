@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* line 1, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
 .wrapper {
-  width: 80%;
+  width: 90%;
   margin: 0 auto; }
 
 /* line 6, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
@@ -32,38 +32,51 @@ nav {
       nav ul li a {
         text-transform: uppercase;
         text-decoration: none;
-        padding-right: 20px;
+        padding-right: 10px;
         font-weight: bold;
         padding-left: 20px; }
         /* line 33, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
         nav ul li a:hover {
           color: #000; }
+    /* line 38, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
+    nav ul li:nth-child(6) {
+      float: right; }
 
-/* line 41, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
+/* line 44, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
 section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-  /* line 45, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
+  /* line 48, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
   section aside,
   section article {
     flex-basis: 51%; }
-  /* line 50, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
+  /* line 53, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
   section article p {
     background-color: aqua; }
 
-/* line 56, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
-aside {
+/* line 61, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
+.logIn {
+  margin-top: 67px;
+  border: 2px solid black;
+  width: 11%;
   float: right; }
+  /* line 66, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
+  .logIn p {
+    padding: 10px;
+    margin: 0; }
+  /* line 70, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
+  .logIn form {
+    padding: 6px; }
 
-/* line 60, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
+/* line 75, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
 .timeStamp {
   background-color: lightgray;
   width: 18%;
   height: 5%;
   padding-left: 1%; }
 
-/* line 68, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
+/* line 82, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
 footer {
   margin-top: 10px;
   margin-bottom: 10px;

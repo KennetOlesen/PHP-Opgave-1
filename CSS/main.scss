@@ -1,5 +1,5 @@
 .wrapper {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -27,7 +27,7 @@ nav {
             a {
                 text-transform: uppercase;
                 text-decoration: none;
-                padding-right: 20px;
+                padding-right: 10px;
                 font-weight: bold;
                 padding-left: 20px;
                 &:hover {
@@ -35,26 +35,41 @@ nav {
                 }
             }
         }
+        li:nth-child(6) {
+            float: right;
+        }
     }
 }
 
 section {
     display: flex;
     flex-wrap: wrap;
-       justify-content: center;
+    justify-content: center;
     aside,
     article {
-            flex-basis: 51%;
+        flex-basis: 51%;
     }
-    article{
-        p{
+    article {
+        p {
             background-color: aqua;
         }
     }
 }
 
-aside {
+aside {}
+
+.logIn {
+    margin-top: 67px;
+    border: 2px solid black;
+    width: 11%;
     float: right;
+    p {
+        padding: 10px;
+        margin: 0;
+    }
+    form {
+        padding: 6px;
+    }
 }
 
 .timeStamp {
@@ -63,7 +78,6 @@ aside {
     height: 5%;
     padding-left: 1%;
 }
-
 
 footer {
     margin-top: 10px;
