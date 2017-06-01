@@ -1,59 +1,72 @@
 @charset "UTF-8";
-/* line 1, PHP Opgave/CSS/main.scss */
+/* line 1, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
 .wrapper {
   width: 80%;
   margin: 0 auto; }
 
-/* line 6, PHP Opgave/CSS/main.scss */
+/* line 6, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
 .img-responsive {
   width: 100%; }
 
-/* line 11, PHP Opgave/CSS/main.scss */
+/* line 10, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
 .logo {
+  margin: 0;
   height: 150px; }
-  /* line 13, PHP Opgave/CSS/main.scss */
+  /* line 13, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
   .logo img {
     width: 100%;
     height: 150px; }
 
-/* line 19, PHP Opgave/CSS/main.scss */
+/* line 19, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
 nav {
   height: 40px;
   background-color: forestgreen; }
-  /* line 22, PHP Opgave/CSS/main.scss */
+  /* line 22, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
   nav ul {
     padding-top: 10px; }
-    /* line 24, PHP Opgave/CSS/main.scss */
+    /* line 24, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
     nav ul li {
       list-style: none;
       display: inline-block; }
-      /* line 27, PHP Opgave/CSS/main.scss */
+      /* line 27, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
       nav ul li a {
         text-transform: uppercase;
         text-decoration: none;
         padding-right: 20px;
         font-weight: bold;
         padding-left: 20px; }
-        /* line 33, PHP Opgave/CSS/main.scss */
+        /* line 33, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
         nav ul li a:hover {
           color: #000; }
 
-/* line 42, PHP Opgave/CSS/main.scss */
+/* line 41, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
 section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; }
-  /* line 47, PHP Opgave/CSS/main.scss */
-  section aside, section article {
-    flex-basis: 32%; }
+  justify-content: center; }
+  /* line 45, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
+  section aside,
+  section article {
+    flex-basis: 51%; }
+  /* line 50, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
+  section article p {
+    background-color: aqua; }
 
-/*Klement svar på hvordan man får billeder til at ligge ved siden af hianden via flexbox
+/* line 56, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
+aside {
+  float: right; }
 
-https://codepen.io/klementj/pen/xdvrMy?editors=1100 
+/* line 60, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
+.timeStamp {
+  background-color: lightgray;
+  width: 18%;
+  height: 5%;
+  padding-left: 1%; }
 
-*/
-/* line 58, PHP Opgave/CSS/main.scss */
+/* line 68, C:/WEB PÅ C drevet/PHP-Opgave-1/CSS/main.scss */
 footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
