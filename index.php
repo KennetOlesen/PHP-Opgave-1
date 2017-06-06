@@ -57,8 +57,8 @@
         </section>
 -->
         </main>
-        <footer>Copyright 2017 Kennet Skov Olesen</footer>
+        <footer>Copyright &copy; 2017 Kennet Skov Olesen</footer>
     </div>
 </body>
 
-</html>
+®</html>
